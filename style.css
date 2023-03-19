@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #1c1e21;
+}
+
+.container {
+  height: 100vh;
+  background: #80808025;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.container h1 {
+  font-family: Helvetica;
+  font-size: 55px;
+  font-weight: bolder;
+  color: #1877f2;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  font-size: 26px;
+  font-family: Helvetica;
+  justify-content: center;
+  align-items: center;
+  color: #000000de;
+}
+
+.form-container {
+  background: white;
+  margin-right: 30px;
+  height: 390px;
+  border-radius: 10px;
+  margin-left: 130px;
+  flex-basis: 30%;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box {
+  width: 370px;
+  padding: 15px;
+  margin: 10px;
+  margin-left: 18px;
+  border-radius: 5px;
+  border-color: #80808042;
+  font-size: 17px;
+  border-width: 1px;
+}
+
+.submit-box {
+  width: 370px;
+  padding: 10px;
+  margin: 16px;
+  border-radius: 5px;
+  border-color: #80808000;
+  background: #1877f2;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
+.form-container p,
+a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #1877f2;
+}
+
+.horizontal1 {
+  width: 350px;
+  margin-left: 19px;
+  border-color: #00000018;
+  border-width: 1px;
+}
+
+button {
+  width: 190px;
+  padding: 13px;
+  margin-top: 25px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: #80808000;
+  background: #42b72a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.page {
+  margin-top: 50px;
+}
+
+.page p,
+a {
+  color: #1c1e21;
+}
+
+.page a:hover {
+  text-decoration: underline;
+}
+
+.page-bold {
+  font-weight: bold;
+}
+
+/* This is the footer */
+
+.main-footer {
+  display: block;
+  height: 150px;
+}
+
+.content1 {
+  padding-top: 20px;
+}
+
+#page-footer {
+  color: #737373;
+  margin-left: 190px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+}
+
+.footer-horizontal {
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+  width: 80%;
+  margin-left: 14px;
+  margin-top: 8px;
+}
+
+#plus a {
+  border-color: #ccd0d5;
+  background-color: #f5f6f7;
+  color: #8a8d91;
+  border: 1px solid #8a8d91;
+  padding: 4px 10px;
+}
+
+.footer-items1 {
+  padding-top: 8px;
+  align-items: center;
+  display: inline-block;
+  margin-left: 10px;
+  width: 90%;
+}
+
+.footer-item {
+  display: inline-block;
+}
+
+.footer-item a {
+  text-decoration: none;
+  list-style: none;
+  color: #737373;
+  text-align: justify;
+  margin: -4px;
+  font-size: 12px;
+  font-family: helvetica;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.content2 p {
+  color: #737373;
+  font-size: 12px;
+  text-align: justify;
+  font-family: helvetica;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 16px;
+}
